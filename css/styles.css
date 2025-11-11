@@ -119,16 +119,19 @@ body {
 
 /* Next participant */
 #participant-2 {
-	background-color: white;
+  background-color: #e0f7fa;
+  border: 3px solid #00796b;
+  box-shadow: 0 4px 10px rgba(0, 121, 107, 0.4);
+  border-radius: 15px;
 }
 #participant-2 .profile-photo {
-	background-image: url("../images/participant-photo.png");
+  background-image: url("../images/chairat-photo.JPG");
 }
 #participant-2 .participant-name::before {
-	/* content: "Your Name Here"; */
+  content: "Chairat(Jiab)";
 }
 #participant-2 .participant-quote::before {
-	/* content: "Your inspirational quote here." */
+  content: "Live in the moment 😊";
 }
 
 /* Next participant */
