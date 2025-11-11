@@ -158,16 +158,16 @@ body {
 
 /* Next participant */
 #participant-5 {
-  background-color: white;
+  background-color: rgb(161, 255, 230);
 }
 #participant-5 .profile-photo {
-  background-image: url("../images/participant-photo.png");
+  background-image: url("images/img.jpg");
 }
 #participant-5 .participant-name::before {
-  /* content: "Your Name Here"; */
+   content: "05_Chanansiri (Earn)"; 
 }
 #participant-5 .participant-quote::before {
-  /* content: "Your inspirational quote here." */
+  content: "Even if you are on the right track, you'll get run over if you just sit there."
 }
 
 /* Next participant */
