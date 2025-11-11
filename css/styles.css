@@ -514,7 +514,7 @@ body {
   background-image: url("../images/participant-photo.png");
 }
 #participant-30 .participant-name::before {
-  /* content: "Your Name Here"; */
+  content: "30_Phatnaree(Aing)";
 }
 #participant-30 .participant-quote::before {
   /* content: "Your inspirational quote here." */
