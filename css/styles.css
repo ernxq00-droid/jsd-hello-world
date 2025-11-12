@@ -245,19 +245,30 @@ body {
 
 /* Next participant */
 #participant-10 {
-  background-color: lavender;
+  background-color: rgb(255, 185, 171);
   border: 3px solid rgb(240, 157, 240);
   box-shadow: 0 4px 10px goldenrod;
   border-radius: 15px;
+  animation: glow 2s ease-in-out infinite alternate;
 }
 #participant-10 .profile-photo {
   background-image: url("../images/jack-profile.jpg");
+  background-size: cover;
+  background-position: center;
+  margin: 10px auto;
+  box-shadow: 0 0 15px gold;
+  animation: glow 2s ease-in-out infinite alternate;
+}
+@keyframes glow {
+  from { box-shadow: 0 0 25px gold; }
+  to { box-shadow: 0 0 25px violet; }
 }
 #participant-10 .participant-name::before {
   content: "Chutikarn Kintorn";
 }
 #participant-10 .participant-quote::before {
-	/* content: "Your inspirational quote here." */
+  content: "อยู่เฉยๆ ก็สบายล่ะ"
+
 }
 
 /* Next participant */
