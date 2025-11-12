@@ -156,18 +156,30 @@ body {
   /* content: "Your inspirational quote here." */
 }
 
-/* Next participant */
+
 #participant-5 {
-  background-color: rgb(161, 255, 230);
+  background-image: url(../images/E255D-.gif);
+  background-size: cover;
+  border: 5px solid #ffa2f0;
+  
 }
 #participant-5 .profile-photo {
-  background-image: url("images/img.jpg");
+  background-image: url(../images/kbn.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100px;
+  height: 100px;
 }
 #participant-5 .participant-name::before {
-   content: "05_Chanansiri (Earn)"; 
+   content: "05_Chanansiri(Earn)"; 
+   color: #ffffff; 
+   font-weight: bold;
 }
 #participant-5 .participant-quote::before {
-  content: "Even if you are on the right track, you'll get run over if you just sit there."
+  content: "It is never too late to be what you might have been."; 
+  color: #ffffff;
+  font-weight: bold;
 }
 
 /* Next participant */
